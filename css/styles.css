@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Maitree', Times New Roman, serif;
+	font-family: 'Maitree', 'Times New Roman', serif;
 }
 
 h1, h2, h3 {
@@ -41,7 +41,6 @@ img {
 
 .jumbotron {
 	height: 100vh;
-	/*width: 100vw;*/
 	background: url(../img/background-header.png) no-repeat;
 	background-size: cover;
 }
@@ -168,13 +167,6 @@ main {
 	line-height: 22px;
 	color: #a3a2a3;
 }
-/*
-.burger-item-shack {
-	position: relative;
-	max-width: 750px;
-	background: url(../img/burger-shack.png) no-repeat center center;
-	width: 100%;
-}*/
 
 .burger-item-secret {
 	position: relative;
@@ -307,9 +299,6 @@ main {
 
 .burger-item-products {
 	position: relative;
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
 }
 
 .burger-item-products-text {
@@ -339,14 +328,14 @@ main {
 }
 
 .since-content p {
-	font-family: 'Maitree Bold', Times New Roman, serif;
+	font-family: 'Maitree Bold', 'Times New Roman', serif;
 	font-weight: bold;
 	font-size: 18px;
 }
 
 .since-content p span {
 	display: block;
-	font-family: 'Maitree Bold', Times New Roman, serif;
+	font-family: 'Maitree Bold', 'Times New Roman', serif;
 	font-weight: bold;
 	font-size: 36px;
 	text-transform: uppercase;
@@ -417,7 +406,6 @@ footer {
 	box-sizing: border-box;
 	border-radius: 4px;
 	border: 2px solid #646667;
-	/*border: none;*/
 	background: transparent;
 }
 
